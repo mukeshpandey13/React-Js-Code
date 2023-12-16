@@ -10,8 +10,8 @@ function App() {
       {/* 1) importing navbar from Navbar.js in this app.js */}
 
       {/* Use of props  */}
-      {/* <Navbar title={"TextUtils"} about="About Me" /> */}
-      <Navbar/>
+      <Navbar title={"My React"} about="About Us" />
+      {/* <Navbar/> */}
     </>
   );
 }
