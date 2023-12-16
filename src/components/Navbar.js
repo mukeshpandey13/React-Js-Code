@@ -30,18 +30,26 @@ export default function Navbar(props) {
 </nav>
     </div>
   )
+}
 
 //   ###Types of props regular and default### 
 
 //   to use string only  title and about 
+Navbar.propTypes = {
+    title: PropTypes.string.isRequired,
+    about: PropTypes.string
 }
-// Navbar.propTypes = {
-//     title: PropTypes.string.isRequired,
-//     about: PropTypes.string
-// }
 
 // you use default prps as well 
-Navbar.defaultProps = {
-    title:'set the title name',
-    about: 'set the about me '
-};
+// Navbar.defaultProps = {
+//     title:'set the title name',
+//     about: 'set the about me '
+// };
+
+
+
+
+// note 
+// 1) use of props and its types 
+//    a) normal props and
+//    b) default props 

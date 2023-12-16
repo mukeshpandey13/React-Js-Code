@@ -7,9 +7,17 @@ import Navbar from "./components/Navbar"; //1) importing navbar from Navbar.js i
 function App() {
   return (
     <>
-     <div>Hello</div>
+    {/* this is use for normal props  */}
+    <Navbar title="TextUtils" about="About Us" />
+
+    {/* this is use for default props  */}
+    {/* <Navbar/> */}
+     
     </>
   );
 }
 
 export default App;
+
+// note 
+// importing navbar using props 
