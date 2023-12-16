@@ -31,7 +31,6 @@ export default function Navbar(props) {
     </div>
   )
 
-
 //   ###Types of props regular and default### 
 
 //   to use string only  title and about 
