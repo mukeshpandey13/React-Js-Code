@@ -5,7 +5,9 @@ import PropTypes from 'prop-types'
 export default function Navbar(props) {
   return (
     <div>
-         <nav className="navbar navbar-expand-lg bg-body-tertiary">
+         {/* <nav className="navbar navbar-expand-lg bg-body-tertiary">  original*/}
+         {/* for to make navbar dark or light  */}
+         <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
   <div className="container-fluid">
     <a className="navbar-brand" href="/">{props.title}</a>
     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -53,3 +55,10 @@ Navbar.propTypes = {
 // 1) use of props and its types 
 //    a) normal props and
 //    b) default props 
+
+//bootstrap
+// btn btn-primary = blue color
+// btn btn-denger = red color
+// btn btn-success = green color
+//btn btn-outline-success = show green color when mouse is moved there
+
